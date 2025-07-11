@@ -218,3 +218,87 @@ height: 70px;
 }
 
 
+
+
+
+.formingClass {
+    height: 650px;
+    width: 1440;
+    border-radius: 10px;
+    padding: 90px 0px 0px 0px;
+    margin: 140px auto;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+
+.formingTitle {
+    height: 245px;
+    width: 580px;
+    font-size: 50px;
+    font-weight: bold;
+    word-wrap: break-word;
+
+}
+
+.formingClass input[type=text], input[type=email], input[type=textarea] {
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 400px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: 1px solid rgb(230, 211, 179);
+}
+
+.formingClass input[type=button] {
+    height: 50px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 5%;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 35px;
+   
+ a{
+     text-decoration: none;
+}
+    
+}
+
+.footerDiv {
+    text-align: center;
+}
+
+footer h1 {
+    color: #4E47FF;
+    font-size: 80px;
+}
+
+footer p {
+    max-width: 530px;
+    height: 48px;
+    word-wrap: break-word;
+}
+
+
+

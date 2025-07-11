@@ -1,3 +1,38 @@
+.P-headerer{
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    /* width: 1440px; */
+    height: 698px;
+     /* display: flex; */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+
+}
+.bannerDiv{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+.banner-description{
+    width: 905px;
+    height: 152px;
+    text-align: center;
+}
+.banner{
+    justify-content: center;
+    align-items:flex-end;
+    /* width: 915px;
+    height: 227px; */
+    font-size: 65px;
+    font-weight:bold;  
+}
+
+
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -8,4 +43,10 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+.btn-2{
+    justify-content:center;
+    align-items: center;
+     text-align: center;
 }

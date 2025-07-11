@@ -84,6 +84,9 @@ nav li a{
     font-weight: bold;
     
 }
+.btn-primary:hover{
+    background-color:brown;
+}
 .main-div{
     display: flex;
     justify-content: space-between;

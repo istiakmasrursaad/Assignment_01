@@ -1,3 +1,11 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #F5F8FF;
+}
 .P-headerer{
     background-image: url(../Assets/Hero-bg.png);
     background-size: cover;
@@ -18,9 +26,10 @@ nav{
     text-align:center;
 }
 .banner-description{
-    width: 905px;
+    max-width: 905px;
     height: 152px;
     text-align: center;
+    font-size: 87px;
 }
 .banner{
     justify-content: center;
@@ -75,3 +84,75 @@ nav li a{
     font-weight: bold;
     
 }
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    margin:116px 159px 0 141px;
+}
+.maindivh3{
+    font-size: 48px;
+    font-weight: bold;
+}
+.pclass{
+    font-size: 24px;
+    font-weight: normal;
+    color: #252432;
+}
+.imag{
+    width:403px ;
+    height:328px ;
+    border-radius: 48px;
+}
+
+
+.hello{
+    display: flex;
+  justify-content: center;    
+}
+
+.section3{
+    
+  width: 1140px;
+  height: 306px;
+  margin-top: 116px;
+  border-radius: 24px;
+  background-color: #D6DDED;
+  justify-content: center;
+  padding: 50px 142px 50px 142px;
+  margin-left:141px ;
+  margin-right: 159px;
+    
+
+}
+.headerSec3{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center; 
+
+}
+.user1 ul{
+    display: flex;
+    justify-content: space-between;
+     list-style: none;
+     margin-top: 75px;
+}
+
+.user1 ul li{
+   font-size: 80px;
+   font-weight: bold;
+   color: #4E47FF;
+}
+.user2 ul{
+    display: flex;
+    justify-content: space-between;
+     list-style: none; 
+   
+}
+.user2 ul li{
+    margin-top: 0;
+   font-size: 20px;
+   font-weight:normal;
+   color: #9c9b9b;;
+}
+
+

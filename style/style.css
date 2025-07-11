@@ -50,3 +50,28 @@ nav{
     align-items: center;
      text-align: center;
 }
+.nav-title{
+font-weight:900 ;
+font-size: 34px;
+color: #4E47FF;
+}
+
+nav ul li{
+    list-style: none;
+}
+/* nav ul{
+    display: flex;
+} */
+nav li a{
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    border:none;
+    border-radius: 10px;
+    padding: 12px 36px;
+    font-weight: bold;
+    
+}
